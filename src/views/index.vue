@@ -1,5 +1,5 @@
 <template>
-  <div class="app-container home">
+  <!-- <div class="app-container home">
     <el-row :gutter="20">
       <el-col :sm="24" :lg="24">
         <blockquote class="text-warning" style="font-size: 14px">
@@ -826,16 +826,22 @@
         </el-card>
       </el-col>
     </el-row>
-  </div>
+  </div> -->
+
+
+<div>
+  <h1>Hello World!</h1>
+</div>
+
 </template>
 
-<script>
+<!-- <script>
 export default {
   name: "Index",
   data() {
     return {
       // 版本号
-      version: "3.8.3",
+      version: "1.0.1",
     };
   },
   methods: {
@@ -844,9 +850,9 @@ export default {
     },
   },
 };
-</script>
+</script> -->
 
-<style scoped lang="scss">
+<!-- <style scoped lang="scss">
 .home {
   blockquote {
     padding: 10px 20px;
@@ -908,5 +914,5 @@ export default {
     }
   }
 }
-</style>
+</style> -->
 

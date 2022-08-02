@@ -42,6 +42,17 @@ export const constantRoutes = [
     ]
   },
   {
+    path: '/order',
+    component: Layout,
+    hidden: true,
+    children: [
+      {
+        path: '/order/:path(.*)',
+        component: () => import('@/views/order')
+      }
+    ]
+  },
+  {
     path: '/login',
     component: () => import('@/views/login'),
     hidden: true
